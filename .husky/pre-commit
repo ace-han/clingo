@@ -1,1 +1,3 @@
+# refer to https://www.npmjs.com/package/lint-staged#examples
+
 npx lint-staged
