@@ -17,7 +17,7 @@
     "react-dom": "^19"
   },
   "devDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^5.1.0",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.0",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
