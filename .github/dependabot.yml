@@ -12,6 +12,12 @@ updates:
       time: "06:00"
       timezone: "UTC"
     open-pull-requests-limit: 10
+    ignore:
+      # Ignore patch updates for all dependencies, so that I don't have to review all the changes frequently
+      - dependency-name: "*" # Match all dependencies
+        update-types:
+          - "version-update:semver-patch"
+          - "version-update:semver-minor"
     labels:
       - ":robot: bot"
   # refer to
